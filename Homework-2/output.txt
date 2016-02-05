@@ -1,0 +1,43 @@
+Nathan Bain
+neb553
+2.2.16
+M348
+
+Question 3 output
+
+--------------------------------------------------------------
+f(x) = e^x-x^2+3*x-2    [ 0.00, 1.00]   ε=10^-8
+--------------------------------------------------------------
+Iteration:   1  Approximate root:  0.5000000000  Function value:  0.8987212707
+Iteration:   2  Approximate root:  0.2500000000  Function value: -0.0284745833
+Iteration:   3  Approximate root:  0.3750000000  Function value:  0.4393664146
+Iteration:   4  Approximate root:  0.3125000000  Function value:  0.2066816912
+Iteration:   5  Approximate root:  0.2812500000  Function value:  0.0894331962
+Iteration:   6  Approximate root:  0.2656250000  Function value:  0.0305642341
+Iteration:   7  Approximate root:  0.2578125000  Function value:  0.0010663677
+Iteration:   8  Approximate root:  0.2539062500  Function value: -0.0136986837
+Iteration:   9  Approximate root:  0.2558593750  Function value: -0.0063148068
+Iteration:  10  Approximate root:  0.2568359375  Function value: -0.0026238823
+Iteration:  11  Approximate root:  0.2573242188  Function value: -0.0007786731
+Iteration:  12  Approximate root:  0.2575683594  Function value:  0.0001438683
+Iteration:  13  Approximate root:  0.2574462891  Function value: -0.0003173971
+Iteration:  14  Approximate root:  0.2575073242  Function value: -0.0000867631
+Iteration:  15  Approximate root:  0.2575378418  Function value:  0.0000285530
+Iteration:  16  Approximate root:  0.2575225830  Function value: -0.0000291050
+Iteration:  17  Approximate root:  0.2575302124  Function value: -0.0000002760
+Iteration:  18  Approximate root:  0.2575340271  Function value:  0.0000141385
+Iteration:  19  Approximate root:  0.2575321198  Function value:  0.0000069313
+Iteration:  20  Approximate root:  0.2575311661  Function value:  0.0000033276
+Iteration:  21  Approximate root:  0.2575306892  Function value:  0.0000015258
+Iteration:  22  Approximate root:  0.2575304508  Function value:  0.0000006249
+Iteration:  23  Approximate root:  0.2575303316  Function value:  0.0000001745
+Iteration:  24  Approximate root:  0.2575302720  Function value: -0.0000000508
+Iteration:  25  Approximate root:  0.2575303018  Function value:  0.0000000619
+Iteration:  26  Approximate root:  0.2575302869  Function value:  0.0000000055
+Iteration:  27  Approximate root:  0.2575302795  Function value: -0.0000000226
+--------------------------------------------------------------------
+The solution between 0.00 and 1.00 is approximately 0.257530
+--------------------------------------------------------------------
+
+
+
