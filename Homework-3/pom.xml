@@ -16,7 +16,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>com.M348.hw3.Test</mainClass>
+              <mainClass>com.M348.hw3.FixedPoint</mainClass>
             </manifest>
           </archive>
         </configuration>

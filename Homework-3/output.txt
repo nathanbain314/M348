@@ -1,0 +1,9 @@
+f(x) = atan(x)+pi
+p_0 = 4.500000
+
+Iteration: 1 Approximate value: 4.49372003451074800
+Iteration: 2 Approximate value: 4.49342411319326900
+Iteration: 3 Approximate value: 4.49341014949636000
+Iteration: 4 Approximate value: 4.49340949054537500
+
+Solution = 4.493409
