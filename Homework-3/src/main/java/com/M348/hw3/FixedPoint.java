@@ -1,3 +1,9 @@
+// -----------------
+// FixedPoint.java
+// Nathan Bain
+// February 11, 2016
+// -----------------
+
 package com.M348.hw3;
 
 // Import exp4j for algebra
@@ -33,14 +39,14 @@ public class FixedPoint
     return p; 
   }
   
-  // -------------------------------------------------
-  // Finds approximate solution using iteration method
+  // -----------------------------------------------------------------
+  // Finds approximate solution of x = function using iteration method
   // Requires function, variable, number of iterations
   // and tolerance exponent
   // Also accepts guess or start and end of range
   // 0 iterations defaults to 100
   // 0 tolerance exponent changes to -10
-  // -------------------------------------------------
+  // -----------------------------------------------------------------
   public static void main( String [] args)
   {
     double guess, start, end, tol;

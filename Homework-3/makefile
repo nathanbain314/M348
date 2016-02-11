@@ -3,4 +3,5 @@ all:
 
 clean:
 	rm -rf target
+	rm -rf *~
 	rm -rf dependency-reduced-pom.xml
