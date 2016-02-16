@@ -1,17 +1,31 @@
 #!/usr/bin/env python3
 
-from sympy.parsing.sympy_parser import parse_expr
+# -----------------
+# Newton.py
+# Nathan Bain
+# February 16, 2016
+# -----------------
+
 import sympy
-from sympy import pprint
+from sympy import pprint, N
+from sympy.parsing.sympy_parser import parse_expr
 import sys
 
+"""
+f the function
+v the variable
+p_0 the initial p value
+n the maximum number of iterations
+tol the minimum tolerance required
+return the approximate solution
+"""
 def newton( f, v, p_0, n, tol):
   d = f.diff(v)
   p = 0
 
   for i in range( 1, n + 1):
-    p = p_0 - f.subs( v, p)/d.subs( v, p_0)
-    print('Iteration: ' + repr(i) + ' Value: ' + repr(p))
+    p = N(p_0 - f.subs( v, p)/d.subs( v, p_0))
+    print('Iteration: ' + repr(i) + '        \tValue: ' + repr(p) )
 
     if ( abs( p - p_0 ) < tol ):
       return p
@@ -37,6 +51,7 @@ def main( args):
   print()
   print( 'f(' + repr(v) + ') = ' + repr(f) )
   print( 'p_0 = ' + repr(p_0) )
+  print( 'E = 10^' + args[5])
   print()
   result = newton( f, v, p_0, n, tol)
   print()

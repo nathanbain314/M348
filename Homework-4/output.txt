@@ -1,0 +1,36 @@
+Output for question 3
+
+f(x) = exp(x) + 2*cos(x) - 6 + 2**(-x)
+p_0 = 1.0
+E = 10^-6
+
+Iteration: 1        	Value: 3.90374266465149
+Iteration: 2        	Value: 3.07487659315022
+Iteration: 3        	Value: 2.43235212427224
+Iteration: 4        	Value: 2.02518964762266
+Iteration: 5        	Value: 1.85667778547287
+Iteration: 6        	Value: 1.82999320818040
+Iteration: 7        	Value: 1.82938391329717
+Iteration: 8        	Value: 1.82938360193393
+
+Solution: 1.82938360193393
+
+Output for question 4
+
+f(x) = x**2 - 4*x - log(x) + 4
+p_0 = 2.0
+p_1 = 4.0
+E = 10^-7
+
+Iteration: 2        	Value: 2.41921864588900
+Iteration: 3        	Value: 2.75603971220601
+Iteration: 4        	Value: 3.31702250400113
+Iteration: 5        	Value: 3.00976895937103
+Iteration: 6        	Value: 3.05067070972576
+Iteration: 7        	Value: 3.05728904165992
+Iteration: 8        	Value: 3.05710284392887
+Iteration: 9        	Value: 3.05710354991754
+Iteration: 10        	Value: 3.05710354999474
+
+Solution: 3.05710354999474
+
